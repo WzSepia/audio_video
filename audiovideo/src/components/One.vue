@@ -2,11 +2,11 @@
   <div class="hello">
 		<ul>
 			<li>
-					<a>lvhaha</a>
-					<video width="320" height="240" controls>
-						<source src="../../resource/513a92358cf0238b597b90e812bc6853.mp4" type="video/mp4"></source>
-						您的浏览器不支持 vedio 元素。
-					</video>
+				<a href="https://www.baidu.com">One,One,One,One.</a>
+				<video width="320" height="240" controls>
+					<source src="../../resource/d16437f1eaecb6434cc482643a154d12.mp4" type="video/mp4"></source>
+					您的浏览器不支持 vedio 元素。
+				</video>
 			</li>
 		</ul>
   </div>
@@ -14,10 +14,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'One',
   data () {
     return {
-      msg: 'Welcome to My Form.'
+      msg: 'One.'
     }
   }
 }
@@ -32,5 +32,8 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+a {
+  color: #42b983;
 }
 </style>
